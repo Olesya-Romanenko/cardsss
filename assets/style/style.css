@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+#Howl {
+    background: rgb(133, 43, 194);
+    background: radial-gradient(circle, rgba(133, 43, 194, 0.8435749299719888) 28%, rgba(253, 29, 29, 1) 78%, rgba(249, 110, 10, 1) 100%);
+}
+
+#Sophie {
+    background: rgb(244, 161, 197);
+    background: linear-gradient(45deg, rgba(244, 161, 197, 1) 7%, rgba(141, 188, 242, 1) 100%);
+}
+
+#Markl {
+    background: rgb(244, 173, 65);
+    background: radial-gradient(circle, rgba(244, 173, 65, 1) 7%, rgba(150, 111, 18, 1) 100%);
+}
+
+#Turnip_Head {
+    background: rgb(44, 183, 185);
+    background: linear-gradient(0deg, rgba(44, 183, 185, 1) 0%, rgba(137, 168, 245, 0.7707457983193278) 73%);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 280px;
+    height: 150px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 35px;
+    
+}
+
+.card__image {
+    height: 180px;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    z-index: 1;
+}
+
+#Howl .card__image, 
+#Turnip_Head .card__image {
+    left: 2px;
+}
+
+.card__text {
+    text-align: end;
+    line-height: 1;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.card__title {
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.card__details {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
